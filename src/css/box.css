@@ -1,0 +1,30 @@
+.box-texto{
+    width: 95%;
+    background-color: #1d1921;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .80), 0 2px 10px 0 rgba(0, 0, 0, .90);
+    font-size: 1.25em;
+    font-weight: 300;
+    color:  #e6e6e6c5;
+  }
+     .titulo-box {
+        color:  #e6e6e6c5;
+        font-weight: 300;
+        padding-top: 10px;
+        font-size: 1.25em;
+  }
+  .subtitulo {
+    color:  #e6e6e6c5;
+    font-weight: 300;
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+   .info{
+    font-size: 1em;
+    color:  #e6e6e6c5;
+    margin-bottom: 0;
+    padding-top: 20px
+  }
+
+

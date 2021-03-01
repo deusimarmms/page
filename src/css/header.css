@@ -1,0 +1,23 @@
+.nav-link{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-link ul {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-link ul li{
+  margin: 0 30px;
+}
+.nav-link ul li a{
+  font-size: 1em;
+  font-weight: bold;
+  padding:  0 15px;
+  color: #1d1921;
+  transition: 0.5s;
+}
+.nav-link ul li a:hover{
+  color: #aaa;
+}

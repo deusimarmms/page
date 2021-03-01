@@ -1,0 +1,22 @@
+.projects-container{
+    max-width: 740px;
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: 1fr 1fr ;
+    justify-self: stretch;
+    align-items: center;
+    gap: 20px;
+}
+
+.p-container-col-1 img{
+    max-width: 100%;
+   
+}
+
+
+.p-container-col-1{
+    grid-column: 1;
+}
+.p-container-col-2{
+    grid-column: 2;
+}
