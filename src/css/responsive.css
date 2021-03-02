@@ -43,13 +43,6 @@
         text-align: center;
         font-size: 1em;
     }
-
-    
-  }
-
-  @media only screen and (max-width: 618px) {
-    .main-container{
-    }
     
   }
 
