@@ -6,10 +6,25 @@ $(document).ready(function(){
 
 
 
-$("a").click(function () {
-    $('html, body').animate({
-        scrollTop: ($(this.hash).offset().top)
-    }, 500)
-   
-})
+ $('.menu-nav a').click(function(e){
+     e.preventDefault();
+    let id = $(this).attr('href'),
+    targetOffset = $(id).offset().top;
+    $('html,body').animate({
+        scrollTop: targetOffset
+    },1000);
 
+ });
+
+
+ /* Seta para subir ao topo */
+/* 
+ 
+$('.seta').click(function(e){
+     e.preventDefault();
+     $('html','body').animate({
+         scrollTop:0
+     },1000)
+ }); 
+ 
+ */
