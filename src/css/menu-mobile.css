@@ -1,5 +1,5 @@
 .button{
-    display: none;
+
 }
 
 @media(max-width:640px){
@@ -16,9 +16,6 @@
         cursor: pointer;
         margin: 10px;
         align-items: center;
-/*         position: relative; */
-        z-index: 300;
-/*         left: 78%; */
     }
     .button::before{
         margin-right: 4px;
@@ -30,16 +27,13 @@
         box-shadow: 0 4px #e4e8ef, 0 -4px #e4e8ef;
     }
     #menu{
-        display: block;
-/*         position: absolute; */
+        display: none;
         background-color: #1d1921;
         width: 160px;
         height: 73%;
-        z-index: 200px;
         padding: 5px 0 20px 0;
-        top: 0;
-/*         left: 74%; */
     }
+
     .nav-link ul li{
         margin: 20px 0;
       
